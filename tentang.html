@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Desa Babakan - Tentang</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/fav.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Vue.Js File -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+
+<body>
+
+  <div id="vapp">
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex justify-content-between">
+
+        <div class="logo">
+          <h1 class="text-light"><a href="index.html">IPB-University</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li v-for="item in list_menu"><a v-bind:href="item.link ">{{ item.menu }}</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+      </div>
+    </header><!-- End Header -->
+
+    <main id="main">
+
+      <!-- ======= Breadcrumbs ======= -->
+      <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Tentang</h2>
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li>Tentang</li>
+            </ol>
+          </div>
+
+        </div>
+      </section><!-- End Breadcrumbs -->
+
+      <!-- ======= About Us Section ======= -->
+      <section id="about-us" class="about-us">
+        <div class="container">
+
+          <div class="row no-gutters">
+            <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"
+              data-aos="fade-right" style="background-image: url(assets/img/tentang/g_tentang.jpeg);"></div>
+            <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
+              <div class="content d-flex flex-column justify-content-center">
+                <h4 data-aos="fade-up"><strong>Visi</strong></h4>
+                <h5 data-aos="fade-up">
+                  <strong>
+                    "Maju Bersama Membangun Desa"</strong>
+                </h5>
+
+                <div class="row">
+                  <h4 data-aos="fade-up"><strong>Misi</strong></h4>
+                  <div class="col-md-6 icon-box" data-aos="fade-up">
+                    <i class="bi bi-clipboard-data"></i>
+                    <h4>Pelayanan dan Pemberdayaan</h4>
+                    <p>1. Memaksimalkan Pelayanan Administrasi Terpadu.</p>
+                    <p>2. Menciptakan Aparatur Pemerintahan Desa yang Handal dan Kompeten.</p>
+                    <p>3. Penambahan Armada Mobil Siaga Desa Untuk Pelayanan Kesehatan Warga.</p>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <i class="bi bi-newspaper"></i>
+                    <h4>Anggaran dan Pembangunan</h4>
+                    <p>1. Penggunaan APBDes yang Tepat Guna, Tepat Sasaran, Akuntabel, dan Transparan.</p>
+                    <p>2. Pemerataan Pembangunan Infrastruktur dan Fasilitas Umum.</p>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bi bi-file-bar-graph"></i>
+                    <h4>Sosial dan Kemasyarakatan</h4>
+                    <p>1. Membentuk Forum Ulama dan Umara.</p>
+                    <p>2. Pemberdayaan Yatim dan Dhuafa.</p>
+                    <p>3. Memberikan Pelatihan dan Pendidikan Bagi Pemuda Guna Mengurangi Pengangguran.</p>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                    <i class="bi bi-lightbulb"></i>
+                    <h4>Peningkatan Desa</h4>
+                    <p>1. Mengoptimalkan Peran BUMDes Dan KUD Sebagai Penggerak Ekonomi.</p>
+                    <p>2. Menciptakan Destinasi Wisata dengan Pemanfaatan SDA di Desa.</p>
+                  </div>
+                </div>
+              </div><!-- End .content-->
+            </div>
+          </div>
+
+        </div>
+      </section><!-- End About Us Section -->
+      <!-- ======= Our Team Section ======= -->
+      <section id="team" class="team section-bg">
+        <div class="container">
+
+          <div class="section-title" data-aos="fade-up">
+            <h3><strong>Struktur Organisasi Desa Babakan</strong></h3>
+            <h4>Periode 2023 - 2029</h4>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+
+            </div>
+
+            <div class="col-lg-4 col-md-12 d-flex align-items-center">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/kades.jpg" class="img-fluid" alt=" ">
+                </div>
+                <div></div>
+                <div class="member-info">
+                  <h4>Marwan Suherwan</h4>
+                  <span>Kepala Desa</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-center">
+
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-center">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/sekdes.jpg" class="img-fluid" alt=" ">
+
+                </div>
+                <div class="member-info">
+                  <h4>Jarnuji</h4>
+                  <span>Sekretaris Desa</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--UBAH DATA KASI-->
+          <div class="section-title" data-aos="fade-up">
+            <h3><strong>Kepala Seksi</strong></h3>
+            <h4>Periode 2023 - 2029</h4>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/kasipem.jpeg" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Deden Hidayat, S.H.</h4>
+                  <span>Kasi Pemerintahan</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/kasipel.jpeg" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Drs. Adam Malik, M.Sos.</h4>
+                  <span>Kasi Pelayanan</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/Kasi Kesra.jpg" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Yanti</h4>
+                  <span>Kasi Kesejahteraan</span>
+                  <div>
+                    <a href="https://instagram.com/yaanti04?igshid=OGQ5ZDc2ODk2ZA==" class="twitter" target="_blank"><i
+                        class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/yaanti04?igshid=OGQ5ZDc2ODk2ZA==" class="facebook" target="_blank"><i
+                        class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/yaanti04?igshid=OGQ5ZDc2ODk2ZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/staf 1.jpeg" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Hasan Suhendar, S.Pd.</h4>
+                  <span>Staff Kasi </span>
+                  <div>
+                    <a href="https://instagram.com/yaanti04?igshid=OGQ5ZDc2ODk2ZA==" class="twitter" target="_blank"><i
+                        class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/yaanti04?igshid=OGQ5ZDc2ODk2ZA==" class="facebook" target="_blank"><i
+                        class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/yaanti04?igshid=OGQ5ZDc2ODk2ZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/staf 2.jpeg" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Supriatno</h4>
+                  <span>Staff Kasi </span>
+                  <div>
+                    <a href="https://instagram.com/yaanti04?igshid=OGQ5ZDc2ODk2ZA==" class="twitter" target="_blank"><i
+                        class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/yaanti04?igshid=OGQ5ZDc2ODk2ZA==" class="facebook" target="_blank"><i
+                        class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/yaanti04?igshid=OGQ5ZDc2ODk2ZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--UBAH DATA KAUR-->
+          <div class="section-title" data-aos="fade-up">
+            <h3><strong>Kepala Urusan</strong></h3>
+            <h4>Periode 2023 - 2029</h4>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/kaurkeu.jpg" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Haerudin Iskandar</h4>
+                  <span>Kaur Keuangan</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/kaurtu.jpg" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Taufik Maulana</h4>
+                  <span>Kaur TU dan Umum</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/kaurper.jpg" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Iin Indriyani</h4>
+                  <span>Kaur Perencanaan</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/staf 3.jpg" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Iwan Kurniawan</h4>
+                  <span>Staf Kaur</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!--UBAH DATA KADUS-->
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h3><strong>Kepala Dusun</strong></h3>
+            <h4>Periode 2023 - 2029</h4>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/kadus/KADUS 1.JPG" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Sanudin</h4>
+                  <span>Kadus I</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/kadus/KADUS 2.JPG" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Abdul Khaer</h4>
+                  <span>Kadus II</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/kadus/KADUS 3.JPG" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Suhendrik</h4>
+                  <span>Kadus III</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/kadus/KADUS 4.JPG" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Idris</h4>
+                  <span>Kadus IV</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/kadus/KADUS 5.JPG" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Heri</h4>
+                  <span>Kadus V</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/kadus/KADUS 6.JPG" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Asan</h4>
+                  <span>Kadus VI</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="assets/img/tentang/kadus/KADUS 7.JPG" class="img-fluid" alt="">
+
+                </div>
+                <div class="member-info">
+                  <h4>Taopik</h4>
+                  <span>Kadus VII</span>
+                  <div>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"
+                      target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"
+                      target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"
+                      target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section><!-- End Our Team Section -->
+
+
+    </main><!-- End #main -->
+
+    <footer id="footer">
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>Desa Babakan</h3>
+              <p>
+                Ciseeng <br>
+                Bogor<br>
+                Jawa Barat <br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> humaspemdesbabakan2329@gmail.com<br>
+              </p>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li v-for="item in list_menu"><i class="bx bx-chevron-right"></i> <a v-bind:href="item.link ">{{
+                    item.menu }}</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-md-flex py-4">
+
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Desa Babakan</span></strong>. All Rights Reserved
+          </div>
+
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+  </div>
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    const vueApp = new Vue({
+      el: '#vapp',
+      data: {
+        list_menu: [
+          { menu: 'Home', link: 'index.html' },
+          { menu: 'Tentang', link: 'tentang.html' },
+          { menu: 'Program Kerja', link: 'proker.html' },
+          { menu: 'Desa Presisi', link: 'wildesa.php' },
+          { menu: 'Galleri Kegiatan', link: 'kegiatan.html' }
+        ]
+      }
+
+    })
+
+  </script>
+
+
+</body>
+
+</html>

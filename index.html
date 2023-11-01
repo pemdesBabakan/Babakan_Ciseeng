@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Ganti nama Desa-->
+  <title>Desa Babakan - Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/fav.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Vue.Js File -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+
+  <div id="vapp">
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex justify-content-between">
+
+        <div class="logo">
+          <!--ganti foto desa-->
+          <h1 class="text-light"><a href="index.html">Desa Babakan</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li v-for="item in list_menu"><a v-bind:href="item.link ">{{ item.menu }}</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+      </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 (url(assets/img/home/*s2.jpeg) GAnTI DENGAN FOTO DESA SENDIRI) -->
+          <div class="carousel-item active" style="background-image: url(assets/img/home/s2.jpeg);">
+            <div class="carousel-container">
+              <div class="carousel-content animate__animated animate__fadeInUp">
+                <h2>Selamat datang di Desa Babakan</h2>
+                <p>Jl. AMD 39 Kp. Babakan Sabrang RT 003/004 Desa Babakan Kecamatan Ciseeng Kabupaten Bogor</p>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 (url(assets/img/home/*s2.jpeg) GAnTI DENGAN FOTO DESA SENDIRI)-->
+          <div class="carousel-item" style="background-image: url(assets/img/home/s3.jpeg);">
+            <div class="carousel-container">
+              <div class="carousel-content animate__animated animate__fadeInUp">
+                <h2>Pelayanan Terpadu</h2>
+                <p>Bangga Melayani Bangsa</p>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 (url(assets/img/home/*s2.jpeg) GAnTI DENGAN FOTO DESA SENDIRI)-->
+          <div class="carousel-item" style="background-image: url(assets/img/home/s4.jpeg);">
+            <div class="carousel-container">
+              <div class="carousel-content animate__animated animate__fadeInUp">
+                <h2>Desa Inovasi</h2>
+                <p>Inovasi dari Desa untuk Bangsa</p>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bx bx-left-arrow" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bx bx-right-arrow" aria-hidden="true"></span>
+        </a>
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+      <!-- ======= Cta Section ======= -->
+      <section id="cta" class="cta">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-12 text-center text-lg-center">
+              <h3>MAJU <span> BERSAMA </span> MEMBANGUN <span> DESA </span> </h3>
+              <p> Sebuah Visi untuk Mewujudkan Desa yang Adil, Makmur, Sejahtera, Bersama Seluruh Elemen Masyarakat</p>
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- End Cta Section -->
+
+      <section id="about-us" class="about-us">
+        <div class="container">
+
+          <div class="row no-gutters">
+            <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"
+              data-aos="fade-right" style="background-image: url(assets/img/home/g_depan.jpeg);"></div>
+            <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
+              <div class="content d-flex flex-column justify-content-center">
+                <h3 data-aos="fade-up">Sambutan Kepala Desa Babakan</h3>
+                <h5 data-aos="fade-up"><strong>Selamat datang di Website Desa Babakan</strong> </h5>
+                <p data-aos="fade-up" align="justify">
+                  Dalam rangka mewujudkan Pemerintahan yang baik “Good governance” dengan Pola Pemerintahan yang
+                  Partisipatif, Transparan dan Akuntable maka melalui Website ini Saya selaku Kepala Desa Babakan
+                  berusaha menyajikan Informasi kegiatan Penyelenggaran Pemerintahan Desa, Pembangunan Desa,
+                  Pemberdayaan Masyarakat Desa, Pembinaan Masyarakat Desa, Serta Kegiatan-kegiatan Tak terduga yang
+                  terjadi di Desa Babakan Kecamatan Ciseeng Kabupaten Bogor dengan seluas-luasnya, Khususnya kepada
+                  seluruh warga masyarakat Desa Babakan dan Kepada Semua orang secara umum.<br>
+                  <br>
+                  Website ini juga sebagai wujud perkembangan dunia Teknologi Informasi, untuk melahirkan ide kreatif
+                  dan inovatif dalam menggali Potensi Desa Guna mewujudkan Kesejahteraan Masyarakat Desa Babakan, serta
+                  merupakan upaya Kami untuk dapat mendekatkan diri dalam memberikan pelayanan sebaik mungkin Khususnya
+                  untuk masyarakat Desa Babakan dan untuk Masyarakat secara umum. <br>
+                  <br>
+                  Dan melalui Website ini Kami mengharapkan Saran, Kritik dan Partisipasi langsung dari Masyarakat guna
+                  Perbaikan Pelayanan yang Kami berikan dan Pembangunan yang akan Kami lakukan. <br>
+                  <br>
+                  Saya sampaikan terima kasih kepada semua pihak yang telah banyak memberikan bantuan, dukungan dan
+                  kontribusinya sehingga website ini bisa terealisasi. <br>
+                  <br>
+                  Semoga website ini bermanfaat bagi semua.<br>
+                  Kepala Desa Babakan
+                  <br>
+                  <br>
+                  <strong> Marwan Suherwan</strong>
+
+                </p>
+                <!--
+                <div class="row">
+                  <div class="col-md-6 icon-box" data-aos="fade-up">
+                    <i class="bx bx-receipt"></i>
+                    <h4>Corporis voluptates sit</h4>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>Ullamco laboris nisi</h4>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bx bx-images"></i>
+                    <h4>Labore consequatur</h4>
+                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  </div>
+                  <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                    <i class="bx bx-shield"></i>
+                    <h4>Beatae veritatis</h4>
+                    <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                  </div>
+                </div> -->
+              </div><!-- End .content-->
+            </div>
+          </div>
+
+        </div>
+      </section><!-- End About Us Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="icon-box" data-aos="fade-up">
+                <div class="icon"><i class="bi bi-journal-richtext"></i></div>
+                <h4 class="title"><a href="kegiatan.html">Kegiatan Desa Babakan</a></h4>
+                <p class="description">Sarana informasi pelaksanaan kegiatan di Desa Babakan</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon"><i class="bi bi-card-checklist"></i></div>
+                <h4 class="title"><a href="proker.html">Program Kerja</a></h4>
+                <p class="description">Kerja keras, kerja cerdas, dalam mewujudkan Masyarakat Desa Babakan yang adil,
+                  makmur, dan sejahtera</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon"><i class="bi bi-map-fill"></i></div>
+                <h4 class="title"><a href="wildesa.php">Desa Presisi</a></h4>
+                <p class="description">Mewujudkan Babakan Presisi, halaman untuk melihat babakan dalam Peta</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- End Services Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>Desa Babakan</h3>
+              <p>
+                Ciseeng <br>
+                Bogor<br>
+                Jawa Barat <br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> humaspemdesbabakan2329@gmail.com<br>
+              </p>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li v-for="item in list_menu"><i class="bx bx-chevron-right"></i> <a v-bind:href="item.link ">{{
+                    item.menu }}</a>
+                </li>
+              </ul>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-md-flex py-4">
+
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Desa Babakan 2023</span></strong>. All Rights Reserved
+          </div>
+
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"><i
+              class="bx bxl-twitter"></i></a>
+          <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"><i
+              class="bx bxl-facebook"></i></a>
+          <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"><i
+              class="bx bxl-instagram"></i></a>
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    const vueApp = new Vue({
+      el: '#vapp',
+      data: {
+        list_menu: [
+          { menu: 'Home', link: 'index.html' },
+          { menu: 'Tentang', link: 'tentang.html' },
+          { menu: 'Program Kerja', link: 'proker.html' },
+          { menu: 'Desa Presisi', link: 'wildesa.php' },
+          { menu: 'Galleri Kegiatan', link: 'kegiatan.html' }
+        ]
+      }
+
+    })
+
+  </script>
+
+</body>
+
+</html>
